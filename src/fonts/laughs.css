@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Laughs';
+	src: url('./LaughsQhuan-mLoJm.ttf');
+}
+
+.laughs {
+	font-family: 'Laughs';
+	font-size: 5em !important;
+}

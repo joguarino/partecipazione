@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Magnolia';
+	src: url('./Magnolia.ttf');
+	src: url('./Magnolia Light.ttf');
+}
+
+.magnolia {
+	font-family: 'Magnolia';
+	font-size: 3em !important;
+	line-height: 1.5em !important;
+}

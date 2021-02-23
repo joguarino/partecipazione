@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Hermaiona';
+	src: url('./Hermaiona-K7dxA.otf') format('opentype');
+}
+
+.hermaiona {
+	font-family: 'Hermaiona';
+	font-size: 4em !important;
+	line-height: 1.5em !important;
+}

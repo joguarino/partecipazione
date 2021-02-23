@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Maratre';
+	src: url('./Maratre.otf') format('opentype');
+}
+
+.maratre {
+	font-family: 'Maratre';
+	font-size: 5em !important;
+}

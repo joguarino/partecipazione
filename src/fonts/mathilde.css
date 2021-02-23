@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Mathilde';
+	src: url('./Mathilde\ Castleland.ttf');
+}
+
+.mathilde {
+	font-family: 'Mathilde';
+	font-size: 5em !important;
+}

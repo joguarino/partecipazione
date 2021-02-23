@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Jellyka';
+	src: url('./Jellyka\ Delicious\ Cake.ttf');
+}
+
+.jellyka {
+	font-family: 'Jellyka';
+	font-size: 2.5em !important;
+	line-height: 1.5em !important;
+}

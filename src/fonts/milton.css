@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Milton';
+	src: url('./Milton_One.otf') format('opentype');
+	src: url('./Milton_One_Bold.otf') format('opentype');
+}
+
+.milton {
+	font-family: 'Milton';
+	font-size: 5em !important;
+}
