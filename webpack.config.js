@@ -1,5 +1,6 @@
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -22,6 +23,11 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: 'Partecipazione',
 			template: './src/index.html',
+		}),
+		new ImageMinimizerPlugin({
+			minimizerOptions: {
+				plugins: [['jpegtran', { progressive: true }]],
+			},
 		}),
 	],
 	module: {
