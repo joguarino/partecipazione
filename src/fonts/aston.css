@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Aston';
+	src: url('./Aston\ Script\ Pro\ Bold.ttf'), url('./Aston\ Script\ Pro\ Bold.otf') format('opentype');
+}
+
+.aston {
+	font-family: 'Aston';
+}

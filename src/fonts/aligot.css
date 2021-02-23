@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Aligot';
+	src: url('./Aligot\ de\ Mirabelle.ttf');
+}
+
+.aligot {
+	font-family: 'Aligot';
+	font-size: 6em !important;
+}

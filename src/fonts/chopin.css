@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Chopin';
+	src: url('./ChopinScript.otf') format('opentype');
+}
+
+.chopin {
+	font-family: 'Chopin';
+}

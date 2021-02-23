@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Brotherhood';
+	src: url('./Brotherhood_Script.ttf');
+}
+
+.brotherhood {
+	font-family: 'Brotherhood';
+	font-size: 5em !important;
+}

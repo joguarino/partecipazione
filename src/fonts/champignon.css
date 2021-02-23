@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Champignon';
+	src: url('./Champignon.otf') format('opentype');
+}
+
+.champignon {
+	font-family: 'Champignon';
+	font-size: 4.5em !important;
+}

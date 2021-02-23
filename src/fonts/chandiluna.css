@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Chandiluna';
+	src: url('./Chandiluna.ttf');
+}
+
+.chandiluna {
+	font-family: 'Chandiluna';
+}

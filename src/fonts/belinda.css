@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Belinda';
+	src: url('./BelindaCarolyne-x3n8R.otf') format('opentype');
+}
+
+.belinda {
+	font-family: 'Belinda';
+	font-size: 2.5em !important;
+}

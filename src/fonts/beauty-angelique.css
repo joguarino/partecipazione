@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'BeautyAngelique';
+	src: url('./beauty\ angelique.ttf'), url('./beauty\ angelique.otf') format('opentype');
+}
+
+.beautyangelique {
+	font-family: 'BeautyAngelique';
+	font-size: 5em !important;
+}

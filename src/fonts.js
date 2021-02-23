@@ -1,0 +1,10 @@
+import './fonts/aligot.css';
+import './fonts/aston.css';
+import './fonts/aureligena.css';
+import './fonts/beauty-angelique.css';
+import './fonts/beauty-queen.css';
+import './fonts/belinda.css';
+import './fonts/brotherhood.css';
+import './fonts/champignon.css';
+import './fonts/chandiluna.css';
+import './fonts/chopin.css';

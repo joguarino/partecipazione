@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Aureligena';
+	src: url('./Aureligena.ttf');
+}
+
+.aureligena {
+	font-family: 'Aureligena';
+	font-size: 5em !important;
+}
