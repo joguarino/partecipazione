@@ -1,11 +1,50 @@
+:root {
+	--print-margin: 7mm;
+}
+
+@page {
+	size: A4;
+	margin: 0;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
+@media print {
+	.meta-pagina,
+	#font-selector,
+	#credits {
+		display: none;
+	}
+}
+
+html,
 body {
 	background-color: gainsboro;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	width: 210mm;
+	height: 297mm;
+	position: relative;
+	margin: 0 auto;
+}
+
+.meta-pagina {
+	position: absolute;
+	left: 0;
+	height: 50%;
+	width: inherit;
+}
+
+.meta-pagina#superiore {
+	top: 0;
+	/* background-color: rgba(255, 0, 0, 0.253); */
+	border-bottom: 1px dashed black;
+}
+.meta-pagina#inferiore {
+	top: 50%;
+	/* background-color: rgba(0, 162, 255, 0.253); */
 }
 
 #font-selector {
@@ -19,16 +58,18 @@ body {
 }
 
 #partecipazione {
-	background-image: url(./design-space-paper-textured-background.jpg);
-	background-size: contain;
 	display: block;
 	margin: 0 auto;
-	width: 70%;
-	height: 100%;
+	height: calc(100% - 2 * var(--print-margin));
+	width: calc(100% - 2 * var(--print-margin));
+	background-image: url(./design-space-paper-textured-background.jpg);
+	background-size: contain;
+	padding: var(--print-margin);
 	text-align: center;
-	padding: 50px;
-	font-size: 2em;
-	line-height: 1em;
+	font-size: 16pt;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	align-items: center;
 }
 
 br {
@@ -39,4 +80,8 @@ br {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
+}
+
+#iban {
+	font-family: 'Courier New', Courier, monospace !important;
 }

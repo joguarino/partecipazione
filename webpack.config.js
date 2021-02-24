@@ -13,6 +13,9 @@ module.exports = {
 			import: './src/style.js',
 		},
 	},
+	devServer: {
+		contentBase: './dist',
+	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: '[name].bundle.js',
