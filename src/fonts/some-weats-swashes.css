@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'SomeWeatzSwashes';
+	src: url('./SomeWeatzSwashes-xvBm.ttf');
+}
+
+.some-weats-swashes {
+	font-family: 'SomeWeatzSwashes';
+	font-size: 18pt !important;
+	line-height: 28pt;
+}

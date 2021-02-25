@@ -5,4 +5,7 @@
 
 .aligot {
 	font-family: 'Aligot';
+	font-size: 40pt !important;
+	line-height: 30pt;
+	letter-spacing: 2pt;
 }

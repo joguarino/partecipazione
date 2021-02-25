@@ -1,5 +1,8 @@
 :root {
-	--print-margin: 7mm;
+	--print-margin: 13mm;
+	--larghezza-foglio: 185mm;
+	--altezza-foglio: 300mm;
+	--altezza-stampa-a4: 297mm;
 }
 
 @page {
@@ -13,19 +16,28 @@
 }
 
 @media print {
-	.meta-pagina,
+	html,
+	body {
+		height: var(--altezza-stampa-a4) !important;
+	}
+
 	#font-selector,
 	#credits {
 		display: none;
+	}
+
+	#foglio {
+		background-color: ghostwhite;
+		background-blend-mode: hue;
+		margin-top: -5mm;
 	}
 }
 
 html,
 body {
-	background-color: gainsboro;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	width: 210mm;
-	height: 297mm;
+	width: var(--larghezza-foglio);
+	height: var(--altezza-foglio);
 	position: relative;
 	margin: 0 auto;
 }
@@ -33,18 +45,19 @@ body {
 .meta-pagina {
 	position: absolute;
 	left: 0;
-	height: 50%;
+	height: 110mm;
 	width: inherit;
 }
 
 .meta-pagina#superiore {
-	top: 0;
+	top: 80mm;
 	/* background-color: rgba(255, 0, 0, 0.253); */
 	border-bottom: 1px dashed black;
+	border-top: 1px dashed black;
 }
 .meta-pagina#inferiore {
-	top: 50%;
-	/* background-color: rgba(0, 162, 255, 0.253); */
+	bottom: 0;
+	/* background-color: rgba(0, 162, 2055, 0.253); */
 }
 
 #font-selector {
@@ -57,31 +70,69 @@ body {
 	padding: 15px;
 }
 
-#partecipazione {
-	display: block;
-	margin: 0 auto;
-	height: calc(100% - 2 * var(--print-margin));
-	width: calc(100% - 2 * var(--print-margin));
+#foglio {
+	display: grid;
+	grid-template-rows: 80mm 1fr;
 	background-image: url(./design-space-paper-textured-background.jpg);
 	background-size: contain;
+	clip-path: polygon(135mm 0, 100% 15mm, 100% 100%, 0 100%, 0 50mm);
+	border: 1px dashed black;
 	padding: var(--print-margin);
+	padding-top: 0;
+	height: calc(100% - var(--print-margin));
+	width: calc(100% - 2 * var(--print-margin));
+}
+
+#partecipazione {
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
 	font-size: 16pt;
 	display: grid;
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-rows: 110mm calc(110mm - var(--print-margin));
 	align-items: center;
 }
 
-br {
-	font-size: 2em !important;
+#partecipazione #pagina1 {
+	height: 100%;
+	display: grid;
+	grid-template-rows: auto auto 1fr;
+	align-items: center;
 }
 
-#partecipazione #parte1 #intestazione {
+#partecipazione #pagina2 {
+	height: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr auto;
+	align-items: center;
+}
+
+#partecipazione #pagina1 #nomi-sposi {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
+	font-size: 1.5em;
+	margin-top: 5mm;
+	margin-bottom: 5mm;
 }
 
-#iban {
-	font-family: 'Courier New', Courier, monospace !important;
+#partecipazione #conferma #recapiti {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+
+#partecipazione #conferma #recapiti > :first-child {
+	justify-self: left;
+}
+
+#partecipazione #conferma #recapiti > :last-child {
+	justify-self: right;
+}
+
+.iban {
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
+	font-size: 12pt !important;
+	line-height: initial !important;
+	letter-spacing: initial !important;
 }

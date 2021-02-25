@@ -1,0 +1,11 @@
+﻿/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+	font-family: 'HawnWedding';
+	src: url('hawnw.ttf');
+}
+
+.hawn {
+	font-family: 'HawnWedding';
+	font-size: 24pt !important;
+	line-height: 28pt;
+}

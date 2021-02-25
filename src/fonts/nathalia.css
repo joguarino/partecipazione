@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Nathalia';
+	src: url('./Nathalia.ttf');
+}
+
+.nathalia {
+	font-family: 'Nathalia';
+	font-size: 20pt !important;
+}

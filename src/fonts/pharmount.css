@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Pharmount';
+	src: url('./Pharmount_PersonalUseOnly.ttf');
+}
+
+.pharmount {
+	font-family: 'Pharmount';
+	font-size: 23pt !important;
+	line-height: 28pt;
+	letter-spacing: 1pt;
+}
+
+.pharmount .num {
+	font-family: Georgia, 'Times New Roman', Times, serif !important;
+	font-style: italic;
+	font-size: 14pt !important;
+	line-height: initial !important;
+	letter-spacing: initial !important;
+}

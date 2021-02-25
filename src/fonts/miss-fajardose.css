@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'MissFajardose';
+	src: url('./MissFajardose-Regular.ttf');
+}
+
+.miss-fajardose {
+	font-family: 'MissFajardose';
+	font-size: 26pt !important;
+	line-height: 30pt;
+}

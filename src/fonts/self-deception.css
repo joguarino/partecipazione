@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'SelfDeception';
+	src: url('./SelfDeceptionRegular-ALLWA.ttf');
+}
+
+.self-deception {
+	font-family: 'SelfDeception';
+	font-size: 22pt !important;
+}

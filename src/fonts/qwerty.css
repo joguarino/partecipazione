@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Qwerty';
+	src: url('./Qwerty\ Ability\ -\ Personal\ Use.otf') format('opentype');
+}
+
+.qwerty {
+	font-family: 'Qwerty';
+	font-size: 22pt !important;
+}

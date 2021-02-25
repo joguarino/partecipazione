@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Switzerland';
+	src: url('./Switzerland.ttf');
+}
+
+.switzerland {
+	font-family: 'Switzerland';
+	font-size: 16pt !important;
+	line-height: 29pt;
+	letter-spacing: 2pt;
+}

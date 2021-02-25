@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Nagisha';
+	src: url('./Nagisha.ttf');
+}
+
+.nagisha {
+	font-family: 'Nagisha';
+	font-size: 32pt !important;
+	line-height: 30pt;
+}

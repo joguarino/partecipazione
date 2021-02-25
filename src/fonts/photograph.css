@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Photograph';
+	src: url('./Photograph\ Script\ Free\ Personal\ .ttf'), url('./Photograph\ Script\ Free\ Personal\ .otf') format('opentype');
+}
+
+.photograph {
+	font-family: 'Photograph';
+	font-size: 30pt !important;
+	line-height: 28pt;
+}

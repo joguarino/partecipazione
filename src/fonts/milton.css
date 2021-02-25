@@ -6,4 +6,7 @@
 
 .milton {
 	font-family: 'Milton';
+	font-size: 30pt !important;
+	line-height: 30pt;
+	letter-spacing: 1pt;
 }

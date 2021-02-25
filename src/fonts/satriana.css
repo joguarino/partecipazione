@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Satriana';
+	src: url('./satriana.ttf'), url('./satriana.otf') format('opentype');
+}
+
+.satriana {
+	font-family: 'Satriana';
+	font-size: 28pt !important;
+	line-height: 28pt;
+}

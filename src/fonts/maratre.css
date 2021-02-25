@@ -5,4 +5,7 @@
 
 .maratre {
 	font-family: 'Maratre';
+	font-size: 30pt !important;
+	line-height: 30pt;
+	letter-spacing: 1pt;
 }
