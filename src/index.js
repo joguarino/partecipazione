@@ -6,4 +6,9 @@ $(() => {
 		$('#partecipazione').removeClass().addClass(font);
 		$('#piega').removeClass().addClass(font);
 	});
+
+	$('#font-numeri').on('change', (event) => {
+		var font = event.target.value;
+		$('.num').removeClass().addClass('num').addClass(font);
+	});
 });
