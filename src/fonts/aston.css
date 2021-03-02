@@ -7,4 +7,10 @@
 	font-family: 'Aston';
 	font-size: 13pt !important;
 	line-height: 30pt;
+	word-spacing: 8pt;
+}
+
+#piega.aston .iniziali .lettera#M {
+	right: 236px !important;
+	bottom: 67px !important;
 }
