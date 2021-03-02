@@ -91,9 +91,18 @@ body {
 }
 
 #piega .iniziali {
-	position: absolute;
-	bottom: 75px;
 	font-size: 2em;
+	height: 100%;
+	width: 100%;
+}
+
+#piega .iniziali .lettera {
+	position: absolute;
+	bottom: 100px;
+}
+
+#piega .iniziali .lettera#M {
+	right: 250px;
 }
 
 #partecipazione {
