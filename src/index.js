@@ -4,5 +4,6 @@ $(() => {
 	$('#font').on('change', (event) => {
 		var font = event.target.value;
 		$('#partecipazione').removeClass().addClass(font);
+		$('#piega').removeClass().addClass(font);
 	});
 });

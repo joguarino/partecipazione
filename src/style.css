@@ -83,6 +83,18 @@ body {
 	width: calc(100% - 2 * var(--print-margin));
 }
 
+#piega {
+	position: relative;
+	text-align: center;
+	font-size: 16pt;
+}
+
+#piega .iniziali {
+	position: absolute;
+	bottom: 75px;
+	font-size: 2em;
+}
+
 #partecipazione {
 	width: 100%;
 	margin: 0 auto;
