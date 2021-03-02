@@ -5,6 +5,12 @@
 
 .brotherhood {
 	font-family: 'Brotherhood';
-	font-size: 24pt !important;
+	font-size: 25pt !important;
 	line-height: 28pt;
+	word-spacing: 8pt;
+}
+
+#piega.brotherhood .iniziali .lettera#M {
+	right: 248px;
+	bottom: 75px;
 }
