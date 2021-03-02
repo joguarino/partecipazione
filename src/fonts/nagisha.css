@@ -7,4 +7,10 @@
 	font-family: 'Nagisha';
 	font-size: 32pt !important;
 	line-height: 30pt;
+	word-spacing: 12pt;
+}
+
+#piega.nagisha .iniziali .lettera#M {
+	right: 220px;
+	bottom: 93px;
 }
